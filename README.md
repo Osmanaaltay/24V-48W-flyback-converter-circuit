@@ -67,9 +67,9 @@ ilk sarımımda kaçak endüktans değerim 20uH civarında iken daha az sarımla
 
 | Büyüklük | Hesap | Ölçüm |
 |---|---|---|
-| Verim (tam yük) | %88.8 – 89.0 | … |
-| Vds tepe | 641 V | … |
-| Ipk | 1.58 A | … |
+| Verim (tam yük) | %88.8 – 89.0 |%88|
+| Vds tepe | 641 V |582 V |
+| Ipk | 1.58 A | 1.6A |
 
 ## Sınırlamalar
 
