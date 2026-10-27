@@ -1,6 +1,9 @@
 # 24 V / 2 A (48 W) Flyback Dönüştürücü – Teorik Tasarım Hesapları
 
 İzoleli, DCM, tepe akım modlu flyback dönüştürücünün teorik tasarımı. Hesaplar TI SSZTCW6 (DCM flyback, Eq. 1–27), SSZTCV6 (RCD snubber) ve SLUP127 (trafo boyutlandırma) kaynaklarına dayanır. Bu tasarım gerçek bir prototiple hayata geçirilmiştir.
+Çekirdek kullanılabilir alanının yaklaşık yüzde 70 civarı kullanılmıştır denenmedi ama belki piyasadaki daha küçük bir çekirdek olan EF25 çekirdeğine de sığabilir ama kaçak endüktans değerinizi arttırabilir, gap miktrarınızı büyütebilir bu da fringing etkisine ve kötü EMI sonuçları doğurabilir.
+Benim tasarımımda EMI göz önünde bulundurulsa da emisyon tarafında nasıl bir sonuç verir tahmin edemiyorum.
+EF25 çekirdeği üzerine sarması muhtemelen çok zor olacaktır bundan dolayı ETD29 çekirdeği tercih edildi.
 
 ## Tasarım Girdileri
 
